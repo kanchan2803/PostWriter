@@ -33,7 +33,7 @@ function Home() {
                     transition={{ delay: 0.2, duration: 0.5 }}
                     className="flex justify-center mb-12"
                 >
-                    <img src="/public/images/home.png" alt="Writing Illustration" className="rounded-lg shadow-lg md:max-w-md" />
+                    <img src="/images/home.png" alt="Writing Illustration" className="rounded-lg shadow-lg md:max-w-md" />
                 </motion.div>
 
                 <motion.div 
