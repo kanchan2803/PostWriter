@@ -87,14 +87,24 @@ PostWriter is a modern blog writing application built with React.js, leveraging 
 After starting the development server, open your browser and navigate to `http://localhost:5173` (or the port specified by Vite). You can now use the PostWriter application to create, edit, and manage your blog posts.
 
 ## Project Structure
-
-- `src/`: Contains the source code of the application
-  - `components/`: Reusable React components
-  - `pages/`: Individual page components
-  - `store/`: Redux store configuration and slices
-  - `appwrite/`: Appwrite configuration and API calls
-  - `hooks/`: Custom React hooks
-  - `utils/`: Utility functions
+```
+PostWriter/
+├── public/
+│   ├── images/        # Public images
+│   └── index.html     # Main HTML file
+├── src/
+│   ├── appwrite/      # Appwrite configuration and helpers
+│   ├── assets/        # Static assets like images and fonts
+│   ├── components/    # Reusable UI components
+│   ├── conf/          # Configuration files
+│   ├── pages/         # Page-level components
+│   ├── store/         # State management
+│   ├── App.css        # CSS styles
+│   ├── App.js         # Main application component
+│   ├── index.css      # Global styles
+│   └── main.jsx       # Entry point
+└── README.md          # Project documentation
+```
 
 ## Key Concepts
 
