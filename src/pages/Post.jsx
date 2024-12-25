@@ -52,7 +52,7 @@ export default function Post() {
                     <img
                         src={appwriteService.getFilePreview(post.featuredImage)}
                         alt={post.title}
-                        className="rounded-xl shadow-lg mb-4 max-w-4xl h-96
+                        className="rounded-xl shadow-lg mb-4 max-w-4xl h-60 md:h-96
                         object-cover transition-transform duration-300 hover:scale-105"
                     />
 
